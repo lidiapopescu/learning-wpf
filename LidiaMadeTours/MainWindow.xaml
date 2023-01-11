@@ -5,20 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TailorMadeTours.Net6._0"
         mc:Ignorable="d"
-        Title="MainWindow"
-        Height="450"
-        Width="800">
+        Title="Lidia MadeTours"
+        Height="600"
+        Width="1200"
+        WindowStartupLocation="CenterScreen"
+        FontSize="18"
+        >
     <StackPanel>
         <TextBlock TextWrapping="Wrap"
                    Text="Lidia - MadeTours - Bucharest"
                    FontSize="24"
                    FontWeight="Bold" />
-        <TabControl MinHeight="300">
+        <TabControl MinHeight="680">
             <TabItem Header="Tour Stops">
                 <Grid Background="#FFE5E5E5" />
             </TabItem>
             <TabItem Header="Details">
-                <Grid Background="#FFE5E5E5" />
+                <Grid Background="AntiqueWhite" />
             </TabItem>
             <TabItem Header="Weekly Calendar">
                 <Grid Background="Azure" />

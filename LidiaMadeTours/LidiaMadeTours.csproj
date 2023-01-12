@@ -8,4 +8,26 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\MapPin.png" />
+    <None Remove="Images\Stops\ArtInstitute.jpg" />
+    <None Remove="Images\Stops\Cloud.jpg" />
+    <None Remove="Images\Stops\Fountain.jpg" />
+    <None Remove="Images\Stops\Garden.jpg" />
+    <None Remove="Images\Stops\Lunch.jpg" />
+    <None Remove="Images\Stops\Pastry.jpg" />
+    <None Remove="Images\Stops\Pretzel.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\MapPin.png" />
+    <Resource Include="Images\Stops\ArtInstitute.jpg" />
+    <Resource Include="Images\Stops\Cloud.jpg" />
+    <Resource Include="Images\Stops\Fountain.jpg" />
+    <Resource Include="Images\Stops\Garden.jpg" />
+    <Resource Include="Images\Stops\Lunch.jpg" />
+    <Resource Include="Images\Stops\Pastry.jpg" />
+    <Resource Include="Images\Stops\Pretzel.jpg" />
+  </ItemGroup>
+
 </Project>

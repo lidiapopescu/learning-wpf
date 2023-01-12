@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TailorMadeTours.Net6._0
+namespace LidiaMadeTours
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

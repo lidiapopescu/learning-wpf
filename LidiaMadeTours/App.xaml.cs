@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace TailorMadeTours.Net6._0
+namespace LidiaMadeTours
 {
     /// <summary>
     /// Interaction logic for App.xaml

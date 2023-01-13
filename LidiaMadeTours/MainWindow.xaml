@@ -9,6 +9,7 @@
         Title="Lidia MadeTours"
         Height="600"
         Width="1200"
+        WindowState="Maximized"
         WindowStartupLocation="CenterScreen"
         FontSize="18">
     <StackPanel>
@@ -16,7 +17,7 @@
                    Text="Lidia - MadeTours - Bucharest"
                    FontSize="24"
                    FontWeight="Bold" />
-        <TabControl MinHeight="680">
+        <TabControl MinHeight="1000">
             <TabItem Header="Tour Stops">
                 <views:TourStopsView />
             </TabItem>

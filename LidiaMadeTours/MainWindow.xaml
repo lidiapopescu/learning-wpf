@@ -18,9 +18,7 @@
                    FontWeight="Bold" />
         <TabControl MinHeight="680">
             <TabItem Header="Tour Stops">
-                <Grid Background="#FFE5E5E5">
-                   
-                </Grid>
+                <views:TourStopsView />
             </TabItem>
             <TabItem Header="Details">
                 <views:DetailView />

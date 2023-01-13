@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LidiaMadeTours.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,8 @@ namespace LidiaMadeTours.UserControls
         public TourStopsView()
         {
             InitializeComponent();
+
+            ToursListBox.ItemsSource = TourSource.GetAllTourStops();
         }
     }
 }

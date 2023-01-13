@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TailorMadeTours.Models {
+namespace LidiaMadeTours.Models {
 	class TourStop {
 		public int StopNumber { get; set; }
 		public string Name { get; set; }

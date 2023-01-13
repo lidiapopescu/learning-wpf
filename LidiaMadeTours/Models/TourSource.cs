@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TailorMadeTours.Models {
+namespace LidiaMadeTours.Models {
 	class TourSource {
 		private static List<TourStop> _tourStops;
 		static TourSource() {

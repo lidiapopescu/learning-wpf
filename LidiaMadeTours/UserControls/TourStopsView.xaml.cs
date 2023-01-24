@@ -27,5 +27,13 @@ namespace LidiaMadeTours.UserControls
 
             ToursListBox.ItemsSource = TourSource.GetAllTourStops();
         }
+
+        private void CalcButton_Click(object sender, RoutedEventArgs e)
+        {
+            var q = from stops in TourSource.GetAllTourStops()
+                    where stops.Selected == true
+                    select stops.EstimatedMinutes;
+            MessageTextBlock.Text = String.Format("{0} minutes", q.Sum());
+        }
     }
 }

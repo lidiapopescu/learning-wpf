@@ -14,12 +14,14 @@
                    FontSize='18'
                    Text="Result" />
         <Canvas>
-            <TextBlock Text="The default template for the control"
+            <TextBlock TextWrapping="WrapWithOverflow"
+                       Text="The default template for the control"
                        Canvas.Left="21"
                        Canvas.Top="295"
-                       HorizontalAlignment="Left"
-                       Height="36"
-                       VerticalAlignment="Center"></TextBlock>
+                       HorizontalAlignment="Center"
+                       Height="80"
+                       VerticalAlignment="Top"
+                       Width="137"></TextBlock>
             <Button Style='{x:Null}'
                     Width="250"
                     Height="250"
@@ -28,13 +30,14 @@
                     Name="SaveButton"
                     Content='Save'
                     Click="SaveButton_Click" />
-            <TextBlock Text="A 3D Model custom template defined in App.xml resources"
-                       Canvas.Left="249"
-                       Canvas.Top="321"
-                       HorizontalAlignment="Left"
-                       Height="30"
+            <TextBlock TextWrapping="WrapWithOverflow"
+                       Canvas.Left="311"
+                       Canvas.Top="295"
+                       HorizontalAlignment="Center"
+                       Height="182"
                        VerticalAlignment="Top"
-                       Width="322"></TextBlock>
+                       Width="212">
+                A 3D Model custom template defined in App.xml resources. Configured using style as the default template for all Buttons</TextBlock>
             <Button Width="250"
                     Height="250"
                     Canvas.Top="30"
@@ -42,12 +45,15 @@
                     Name="OkButton"
                     Content='OK'
                     Click="OkButton_Click" />
-            <TextBlock Text="The default template for the control"
+            <TextBlock TextWrapping="WrapWithOverflow"
                        Canvas.Left="544"
                        Canvas.Top="295"
-                       HorizontalAlignment="Left"
-                       VerticalAlignment="Center"></TextBlock>
-            <Button Style='{x:Null}'
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       Height="92"
+                       Width="235">
+                The custom template, using ControlTemplate loaded from App.xml based on a key.</TextBlock>
+            <Button Template='{StaticResource glassButton}'
                     Width="250"
                     Height="250"
                     Canvas.Top="30"

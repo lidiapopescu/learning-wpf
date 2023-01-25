@@ -27,6 +27,9 @@
             <TabItem Header="Weekly Calendar">
                 <views:ScheduleView />
             </TabItem>
+            <TabItem Header="Control Templates Demo">
+                <views:ControlTemplatesDemo />
+            </TabItem>
         </TabControl>
     </StackPanel>
 </Window>
